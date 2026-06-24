@@ -41,18 +41,52 @@ public class Conditionals {
 //        }
 
         //nested if -else
-        boolean hasSubscription = true;
-        int solvedProblem = 240;
+//        boolean hasSubscription = true;
+//        int solvedProblem = 240;
+//
+//        if(hasSubscription) {
+//            if (solvedProblem >= 200) {
+//                System.out.println("unlocked");
+//            } else {
+//                System.out.println("practice more ");
+//            }
+//        }else {
+//            System.out.println("upgrade to premium");
+//
+//        }
+//        int age = 19;
+//        char gender = 'M';
+//
+//        if(gender == 'M') {
+//            System.out.println("you are a male");
+//            if (age > 18) {
+//                System.out.println("you are male and age >18");
+//            } else {
+//                System.out.println("you are a male and age <=18");
+//            }
+//        }
+//        else {
+//            System.out.println("you are not a male");
+//            if(age>18) {
+//                System.out.println("you are not a male and age>18");
+//            }
+//            else {
+//                System.out.println("you are not a male and age<=18");
+//            }
+//
+//        }
 
-        if(hasSubscription) {
-            if (solvedProblem >= 200) {
-                System.out.println("unlocked");
-            } else {
-                System.out.println("practice more ");
-            }
-        }else {
-            System.out.println("upgrade to premium");
+        //ternary operators
 
-        }
+//        int streaksDays = 5;
+//        String status = (streaksDays>=30) ? "consistent" : "irregular";
+//        System.out.println(status);
+//
+//        int age = 10;
+//        int ans = (age >18)? 22:12;
+//        System.out.println(ans);
+
+
+        //switch statement
     }
 }
