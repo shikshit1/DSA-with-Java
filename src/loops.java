@@ -1,4 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
 
 public class loops {
     static void main() {
