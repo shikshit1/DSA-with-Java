@@ -125,34 +125,198 @@ public class Pattern {
         // pattern 8  for hollow pattern
 
 
+//
+//        int n =4;
+//
+//        for (int row=1; row<=n; row++){
+//            // for each row -> 6 column
+//            for (int col=1; col<=6;col++){
+//                if(row==1||row==n){
+//                    System.out.print("* ");
+//                }
+//                else {
+//                    //middle rows
+//                    if(col==1||col==6){
+//                        System.out.print("* ");
+//                    }
+//
+//                    else {
+//                        // middle column
+//                        System.out.print("  ");
+//                    }
+//                }
+//            }
+//
+//            //move to next row
+//            System.out.println();
+//        }
+
+
+
+
+        //pattern 9
+
+//        int n = 5 ;
+//
+//        for(int row = 1; row<=n;row++){
+//            // for each row -> variable of columns
+//            if(row==1|| row==2||row==n){
+//                for (int col=1; col<=row; col++){
+//                    System.out.print("* ");
+//                }
+//            }
+//            else {
+//                // middle rows
+//                //1*
+//                System.out.print("* ");
+//                // (row-2) spaces
+//                for(int col=1;col<=row-2; col++){
+//                    System.out.print("  ");
+//                }
+//                //1*
+//                System.out.print("* ");
+//            }
+//            // move to next row
+//            System.out.println();
+//        }
+
+
+        //pattern 10
+
+//        int n =5;
+//        for(int row=1;row<=n; row++){
+//            // for each rows-> variable of columns
+//            // part 1
+//                for(int col =1; col<= n-row; col++){
+//                    System.out.print("  ");
+//                }
+//                // part 2
+//                if(row==1||row==n){
+//                    for(int col=1; col<=2*row -1; col++){
+//                        System.out.print("* ");
+//                    }
+//                }
+//                else{
+//                    //middle rows
+//                    // 1*
+//                    System.out.print("* ");
+//                    //2r-3 space
+//                    for(int col=1; col<=2*row -3; col++){
+//                        System.out.print("  ");
+//                    }
+//                    //1*
+//                    System.out.print("* ");
+//                }
+//            //move to next row
+//            System.out.println();
+//
+//        }
+
+      // pattern  11
+//
+//        //part 1
+//        int n = 4;
+//        for(int row=1; row<=n; row++) {
+//            //for each row-> variable columns
+//
+//            //space
+//            for (int col = 1; col <= n - row; col++) {
+//                System.out.print("  ");
+//            }
+//            //star
+//            for (int col = 1; col <= 2 * row - 1; col++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+//
+//
+//        //part 2
+//        for (int row = 1; row <= n; row++) {
+//            // for each row-> variable of column
+//            //space
+//
+//
+//            if(row==1){
+//                continue;
+//            }
+//
+//            for (int col = 1; col <= row - 1; col++) {
+//                System.out.print("  ");
+//              }
+//
+//                //star
+//                for (int col = 1; col <= 2 * n -2* row +1 ; col++) {
+//                    System.out.print("* ");
+//                }
+//                System.out.println();
+//
+//            }
+
+        // pattern 12
 
         int n =4;
 
-        for (int row=1; row<=n; row++){
-            // for each row -> 6 column
-            for (int col=1; col<=6;col++){
-                if(row==1||row==n){
-                    System.out.print("* ");
+        //part 1
+        for(int row=1;row<=n; row++){
+            // for each rows-> variable of columns
+            // part 1
+                for(int col =1; col<= n-row; col++){
+                    System.out.print("  ");
                 }
-                else {
-                    //middle rows
-                    if(col==1||col==6){
+                // part 2
+                if(row==1){
+                    for(int col=1; col<=2*row -1; col++){
                         System.out.print("* ");
                     }
-
-                    else {
-                        // middle column
+                }
+                else{
+                    //middle rows
+                    // 1*
+                    System.out.print("* ");
+                    //2r-3 space
+                    for(int col=1; col<=2*row -3; col++){
                         System.out.print("  ");
                     }
+                    //1*
+                    System.out.print("* ");
                 }
-            }
-
             //move to next row
             System.out.println();
-        }
-
 
         }
+
+        //part 2
+
+        for (int row=1 ; row<=(n-1); row++){
+            // for  each row -> variable of columns
+            // part 1
+            for (int col=1; col<=row; col++){
+                System.out.print("  ");
+            }
+            //part 2
+            if (row==(n-1)){
+                System.out.print("* ");
+            }
+            else {
+                //remaining rows
+                //1*
+                System.out.print("* ");
+                //(2(n-r)-3) spaces
+                for (int col=1; col<=  2*(n-row)-3; col++){
+                    System.out.print("  ");
+                }
+                //1*
+                System.out.print("* ");
+            }
+        // move to next row
+            System.out.println();}
+
+
+
+
+
+    }
     }
 
 
