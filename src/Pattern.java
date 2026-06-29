@@ -121,7 +121,6 @@ public class Pattern {
 //            }
 
 
-
         // pattern 8  for hollow pattern
 
 
@@ -150,8 +149,6 @@ public class Pattern {
 //            //move to next row
 //            System.out.println();
 //        }
-
-
 
 
         //pattern 9
@@ -212,7 +209,7 @@ public class Pattern {
 //
 //        }
 
-      // pattern  11
+        // pattern  11
 //
 //        //part 1
 //        int n = 4;
@@ -313,7 +310,6 @@ public class Pattern {
 //            System.out.println();
 
 
-
         // pattern 13
 
 //        int n =4;
@@ -347,7 +343,7 @@ public class Pattern {
 //                System.out.print("* ");
 //            }
 //            System.out.println();
-       // }
+        // }
 
         // pattern  14
 //        int n =5;
@@ -375,31 +371,142 @@ public class Pattern {
 
         // pattern 16
 
+//
+//        int n =5;
+//        for(int row=1; row<=n; row++){
+//            // For each rows-> variable of columns
+//            for(int col=1; col<=row; col++){
+//                int a = col;
+//                int b = ('A'-1);
+//                int ans = a+b;
+//                char finalAns = (char)ans;
+//                System.out.print(finalAns+" ");
+//            }
+//            System.out.println(
+//
+//            );
+//        }
 
-        int n =5;
-        for(int row=1; row<=n; row++){
-            // For each rows-> variable of columns
-            for(int col=1; col<=row; col++){
-                int a = col;
-                int b = ('A'-1);
-                int ans = a+b;
-                char finalAns = (char)ans;
-                System.out.print(finalAns+" ");
+
+// pattern 17
+
+
+//        int n =5;
+//        for(int row=1; row<=n;row++){
+//            // for each rows-> variable of column
+//            for(int col=1; col<=row; col++){
+//                int a = n - col;
+//                int b = 'A';
+//                int ans = a+b;
+//                char finalAns= (char)ans;
+//                System.out.print(finalAns +" ");
+//            }
+//            System.out.println();
+//        }
+
+        // pattern 18
+
+
+//        int n =4;
+//
+//        //part1
+//        for(int row=1; row<=n ; row++){
+//            // for each row -> variable of  columns
+//            // space
+//            for(int col=1;col<= row-1; col++){
+//                System.out.print("  ");
+//            }
+//            // star
+//            for(int col= 1;col<=2*n-2*row+1; col++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+//
+//
+//
+//// part 2
+//        for(int row=1; row<=n; row++){
+//
+//            // spaces
+//            if(row==1){
+//                continue;
+//                }
+//        for(int col=1;col<=n-row;col++){
+//            System.out.print("  ");
+//        }
+//        // stars
+//
+//            for(int col= 1; col<=2*row-1; col++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+
+        // pattern 19
+
+//        int n =4;
+//        for(int row=1; row<=n; row++){
+//            // part 1
+//            for(int col=1; col<= n-row ; col++){
+//                System.out.print("  ");
+//            }
+//            // part 2
+//            for(int col=1; col<=row; col++){
+//                System.out.print(col+" ");
+//            }
+//            //part 3
+//            int rowValue= row;
+//            int decRowValue= row-1;
+//            for(int col=1;col<=row-1; col++){
+//                System.out.print(decRowValue+" ");
+//                decRowValue--;
+//            }
+//            System.out.println();
+//        }
+
+        // pattern 20
+
+//        int n =4;
+//        for(int row=1; row<=n; row++){
+//            //part 1
+//            for(int col=1; col<=n-row;col++){
+//                System.out.print("  ");
+//            }
+//            // part 2
+//            for(int col=1; col<=2*row-1;col++){
+//                System.out.print(row +" ");
+//            }
+//            System.out.println();
+//        }
+
+
+        // pattern 21;
+
+        int n = 4;
+        for (int row = 1; row <= n; row++) {
+            // part 1
+            for (int col = 1; col <= n - row; col++) {
+                System.out.print("  ");
             }
-            System.out.println(
-
-            );
+            // part 2
+            for (int col = 1; col <= row; col++) {
+                int a = col;
+                int b = 'A' - 1;
+                int ans = a + b;
+                char FinalAns = (char) ans;
+                System.out.print(FinalAns + " ");
+            }
+            //part3
+            char toprint = (char) (row + 'A' - 2);
+            for (int col = 1; col <= row - 1; col++) {
+                System.out.print(toprint + " ");
+                toprint--;
+            }
+            System.out.println();
         }
 
-
-
-
-
-
-
-
-
     }
-    }
-
+}
 
