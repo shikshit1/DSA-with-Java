@@ -1,12 +1,12 @@
 public class Methods {
 
     // for 2 ki table
-static void print2katable(){
-    for(int i=1; i<=10;i++){
-        int ans=2*i;
-        System.out.println(ans);
-    }
-}
+//static void print2katable(){
+//    for(int i=1; i<=10;i++){
+//        int ans=2*i;
+//        System.out.println(ans);
+//    }
+//}
 
 // for sum
 //static void printsum(int x, int y){

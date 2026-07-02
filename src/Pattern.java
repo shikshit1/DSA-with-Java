@@ -1,7 +1,5 @@
 public class Pattern {
     static void main() {
-
-
         // pattern 1
 
 //        int n =4;
