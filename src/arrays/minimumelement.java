@@ -2,7 +2,7 @@ package arrays;
 
 public class minimumelement {
     static void main() {
-        int arr[]= {34,232,32,3,};
+        int arr[]= {34,-232,32,3,};
         int n = arr.length;
         int minValue= arr[0];
         //compare
