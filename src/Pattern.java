@@ -426,7 +426,7 @@ public class Pattern {
 //// part 2
 //        for(int row=1; row<=n; row++){
 //
-//            // spaces
+//            / spaces
 //            if(row==1){
 //                continue;
 //                }
