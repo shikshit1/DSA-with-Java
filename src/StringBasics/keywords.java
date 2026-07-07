@@ -73,13 +73,48 @@ public class keywords {
 //        name= name.trim();      //space delete krne ke liye
 //        System.out.println(name.length());
 
+//
+//        String name = "yash";
+//        System.out.println(name.toUpperCase());
+//        String str = "YasH";
+//        System.out.println(str.toLowerCase());
 
-        String name = "yash";
-        System.out.println(name.toUpperCase());
-        String str = "YasH";
-        System.out.println(str.toLowerCase());
+//        String str = "my name is yash";
+        //0 -> m
+        //1 -> y
+        //2 -> space and so on
+        //beginIndex -> 3 -> inclusive
+//        System.out.println(str.substring(3,6));
+//        System.out.println(str.contains("yash"));
 
 
+//        int num= 123423;
+//        String str = String.valueOf(num);
+//        System.out.println(num+1);
+//        System.out.println(str+1);
+
+//        String name= "my name is yash";
+//        System.out.println(name.startsWith("fd"));
+//        System.out.println(name.endsWith("yash"));
+
+//         String name = "yash";
+//         char[]crr = name.toCharArray();
+//
+//         //print the char array
+//        for(char ch: crr){
+//            System.out.println("value of char:"+ ch);
+//        }
+
+        //split -> output -> String array
+//        String input = "my ,name ,is ,yash";
+//        String[] words = input.split(",");
+//        for(String str : words){
+//            System.out.println(str);
+//        }
+
+           String name = "yash";
+           name = name.replace("y","g");
+        System.out.println(name);
     }
 
 
