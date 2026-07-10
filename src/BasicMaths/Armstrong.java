@@ -21,6 +21,7 @@ public class Armstrong {
         }
     }
     static void main() {
-        System.out.println(isArmstrong(153));
+        int num=153;
+        System.out.println(isArmstrong(num));
     }
 }
