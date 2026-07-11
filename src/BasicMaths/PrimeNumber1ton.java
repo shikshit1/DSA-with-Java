@@ -29,7 +29,7 @@ public class PrimeNumber1ton {
 
         boolean isPrime = true;
         //check all prime
-
+            
         for (int i = 2; i < num; i++) {
 
             if (num % i == 0) {

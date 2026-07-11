@@ -13,8 +13,8 @@ public class ReverseNumber {
 
     static void main() {
         int num=1234;
-        int reverse= reverseNum(num);
-        System.out.println(reverse);
+//        int reverse= reverseNum(num);
+        System.out.println(reverseNum(num));
 
     }
 }
