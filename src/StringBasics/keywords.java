@@ -97,13 +97,13 @@ public class keywords {
 //        System.out.println(name.startsWith("fd"));
 //        System.out.println(name.endsWith("yash"));
 
-//         String name = "yash";
-//         char[]crr = name.toCharArray();
-//
-//         //print the char array
-//        for(char ch: crr){
-//            System.out.println("value of char:"+ ch);
-//        }
+         String name = "yash";
+         char[]crr = name.toCharArray();
+
+         //print the char array
+        for(char ch: crr){
+            System.out.println("value of char:"+ ch);
+        }
 
         //split -> output -> String array
 //        String input = "my ,name ,is ,yash";
@@ -111,10 +111,10 @@ public class keywords {
 //        for(String str : words){
 //            System.out.println(str);
 //        }
-
-           String name = "yash";
-           name = name.replace("y","g");
-        System.out.println(name);
+//
+//           String name = "yash";
+//           name = name.replace("y","g");
+//        System.out.println(name);
     }
 
 

@@ -2,7 +2,7 @@ package StringBasics;
 
 public class CountWords {
     static void main() {
-        String str =" my name is shikshit";
+        String str =" my name is  shikshit";
         int count =0;
         boolean inWord = false;
         for(int i =0;i<str.length();i++){
