@@ -3,8 +3,8 @@ package BasicMaths;
 public class CountDigit {
      static int  CountDigit(int num){
          int count =0;
-         while(num!=0){
-             int digit = num%10;
+         while(num>0){
+//             int digit = num%10;
              count++;
              // for last digit remove
              num=num/10;
