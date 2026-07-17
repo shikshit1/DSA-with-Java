@@ -1,5 +1,6 @@
 package OOPs;
 
+
     class animal{
         void display(){
             System.out.println("animal  is barking");
