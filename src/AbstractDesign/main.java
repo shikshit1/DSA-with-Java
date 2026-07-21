@@ -44,7 +44,7 @@
 //}
 
 
-      //Interface
+      //Interface       //it use multiple inheritance while abstraction use single inheritance
 package AbstractDesign;
 
 interface Bird {
