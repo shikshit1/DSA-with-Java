@@ -83,6 +83,10 @@ public class JavaCollections {
         System.out.println( "printing entire new list" +newList);
 
         //ensure capacity
+       ArrayList<Integer> marks = new ArrayList<>();
+       marks.ensureCapacity(100);
+        System.out.println(marks.isEmpty());
 
+        System.out.println(newList.indexOf(40));
     }
 }
