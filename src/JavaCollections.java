@@ -92,7 +92,7 @@ public class JavaCollections {
          // Java linked list
 
 
-        LinkedList<Integer> list = new LinkedList<>();
+        List<Integer> list = new LinkedList<>();
 
 
         //add method
@@ -108,7 +108,7 @@ public class JavaCollections {
         System.out.println(list);
 
         //addALL method
-        List<Integer> list2 = new ArrayList<>();
+        List<Integer> list2 = new LinkedList<>();
         list2.add(101);
         list2.add(102);
         list2.add(20);
@@ -134,7 +134,7 @@ public class JavaCollections {
         }
 
 
-        List<Integer> list3 = new ArrayList<>();
+        List<Integer> list3 = new LinkedList<>();
         list3.add(12);
         list3.add(124);
         list3.add(31);
@@ -166,15 +166,52 @@ public class JavaCollections {
         System.out.println("printing entire list"+ list);
 
         //clone   // create another list same  as other lists
-        ArrayList<Integer> newList = (ArrayList<Integer>)list.clone();
-        System.out.println( "printing entire new list" +newList);
+//        ArrayList<Integer> newList = (ArrayList<Integer>)list.clone();   // linkedlist cant use clone method
+//        System.out.println( "printing entire new list" +newList);
 
         //ensure capacity
         ArrayList<Integer> marks = new ArrayList<>();
         marks.ensureCapacity(100);
         System.out.println(marks.isEmpty());
+        list.add(30);
+        list.add(23);
+        list.add(30);
+        System.out.println("printing original list:"+ list);
+        System.out.println(list.lastIndexOf(30));
+//        System.out.println(list.indexOf(40));
 
-        System.out.println(newList.indexOf(40));
+
+        // add first and add last
+        System.out.println("printing original list:"+ list);
+//        list.addFirst(101);
+
+
+
+        LinkedList<Integer> ll = new LinkedList<>();
+        ll.add(10);
+        System.out.println(ll);
+        ll.addFirst(1);
+        System.out.println(ll);
+        ll.addLast(101);
+        System.out.println(ll);
+
+
+        System.out.println("before;"+ ll);
+        System.out.println("pooling:"+ ll.poll());
+        System.out.println("after:"+ ll);
+        System.out.println(ll.offer(873));
+        System.out.println(ll);
+
+//        System.out.println(ll.peek());
+
+//        System.out.println(ll.getFirst());
+//        System.out.println(ll.getLast());
+//        ll.removeFirst();
+//        System.out.println(ll);
+//
+//        ll.removeLast();
+//        System.out.println(ll);
+
 
     }
 }
