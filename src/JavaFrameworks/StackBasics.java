@@ -1,4 +1,4 @@
-import OOPs.Inheritance;
+package JavaFrameworks;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
