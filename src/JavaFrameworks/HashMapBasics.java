@@ -76,7 +76,7 @@ public class HashMapBasics {
 //        map.put(2, "two");
 //        for(Map.Entry<Integer,String> entry: map.entrySet()) {
 //            System.out.println("key:" + entry.getKey()+", Value:" + entry.getValue());
-        }
+//        }
 
     }
 }
