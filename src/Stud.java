@@ -1,0 +1,70 @@
+public class Stud implements Comparable<Stud> {
+
+    public int age;
+    public String name;
+    public int weight;
+
+
+
+    public String toString(){
+        return "Stud{"+age+
+                ","+name+
+                ","+weight+
+                "}";
+    }
+
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setWeight(int weight){
+        this.weight = weight;
+    }
+
+
+
+
+
+
+    public int getAge(){
+        return age;
+    }
+
+    public String getName(){
+        return  name;
+    }
+
+    public int getWeight(){
+        return weight;
+    }
+
+    public Stud(int age,String name, int weight) {
+        this.age = age;
+        this.name = name;
+        this.weight = weight;
+    }
+
+    @Override
+    public int compareTo (Stud that) {
+        //this method is called current object
+        // we will define our sorting logic here
+
+
+        // sort basis on age
+
+        if(this.age == that.age){
+            return this.name.compareTo(that.name);
+        }
+
+        return  this.age- that.age;
+
+        // descending order
+
+//        return  that.age- this.age;
+    }
+
+
+}
