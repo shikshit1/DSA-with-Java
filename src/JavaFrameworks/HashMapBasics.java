@@ -47,7 +47,7 @@ public class HashMapBasics {
 
         System.out.println(table.containsValue("brazil"));
 
-        System.out.println(table);
+        System.out.println(table);     //print table
 
 
         //Replace(K,V) //   replace the value of key k with the new specified value V.
