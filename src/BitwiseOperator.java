@@ -39,20 +39,40 @@ public class BitwiseOperator {
 
         //Count set bits in a number
 
-        int n=5;
-        int count=0;
-        while(n!=0){
-            if((n&1)!=0){
-                // agr 0 ke equal nhi hai toh ek set bit mill jayegi
-                count++;
-            }
-            //right shift to remove this bit
-            n=n>>1;
-        }
+//        int n=5;
+//        int count=0;
+//        while(n!=0){
+//            if((n&1)!=0){
+//                // agr 0 ke equal nhi hai toh ek set bit mill jayegi
+//                count++;
+//            }
+//            //right shift to remove this bit
+//            n=n>>1;
+//        }
+//
+//        System.out.println("Set bit Count: "+ count);
 
-        System.out.println("Set bit Count: "+ count);
 
 
+        //Check power or 2
 
+//         int n = 15;
+//         if((n&(n-1))==0){
+//             System.out.println("Power of 2 hai");
+//         }
+//         else{
+//             System.out.println("Not a power of 2");
+//         }
+
+
+          //check power of 4
+
+              int n =64;
+              if((n&(n-2))==0){
+                  System.out.println("power of 4");
+              }
+              else{
+                  System.out.println("not power of 4");
+              }
     }
 }
