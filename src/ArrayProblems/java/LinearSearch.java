@@ -1,5 +1,8 @@
 package ArrayProblems.java;
 
+
+//Search for an element in an array{ Linear Search}
+
 public class LinearSearch {
     static boolean findTarget(int  arr[], int  target){
         for(int i =0;i<arr.length;i++){
