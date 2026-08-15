@@ -21,6 +21,11 @@ public List<List<Integer>> threeSum(int[] nums) {
     }
 
 void main() {
+    int[] nums = {-1, 0, 1, 2, -1, -4};
+
+    List<List<Integer>> ans = threeSum(nums);
+
+    System.out.println(ans);
 
 
 }
