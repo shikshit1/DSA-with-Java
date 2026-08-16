@@ -13,11 +13,24 @@ public class PivotIndex {
             //check if the leftsum and right sum are equal
             if(leftsum==rightsum){
                 return i;
-                leftsum+=nums[i];
             }
+            leftsum+=nums[i];
+
             //if not any equal then return -1
-            return -1;
         }
+        return -1;
+
+
+    }
+
+    static void main() {
+
+        int[] nums = {1, 7, 3, 6, 5, 6};
+        PivotIndex obj = new PivotIndex();
+
+        int ans = obj.pivotindex(nums);
+
+        System.out.println("Pivot Index = " + ans);
 
     }
 
