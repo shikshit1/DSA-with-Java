@@ -25,12 +25,12 @@ public class PivotIndex {
 
     static void main() {
 
-        int[] nums = {1, 7, 3, 6, 5, 6};
+        int[] nums = {1,2,3,4, 7, 3, 6, 5, 6};
         PivotIndex obj = new PivotIndex();
 
         int ans = obj.pivotindex(nums);
 
-        System.out.println("Pivot Index = " + ans);
+        System.out.println("Pivot Index are = " + ans);
 
     }
 
