@@ -8,17 +8,18 @@ public class DisappearedElement {
 
         List<Integer> ans = new ArrayList<>();
         int n = nums.length;
-
+      // marked visited element to negative element
         for (int index = 0; index < n; index++) {
 
-            int value = Math.abs(nums[index]);
+            int value = Math.abs(nums[index]); // bcz if a number is already negative
             int position = value - 1;
 
+            // aagr phle se koii negative hai toh usko negative bana do
             if (nums[position] > 0) {
                 nums[position] = -nums[position];
             }
         }
-
+            // now check the index of  , if nums[i] is positive then i+1 on their index
         for (int i = 0; i < n; i++) {
 
             if (nums[i] > 0) {
