@@ -20,7 +20,7 @@ public class BubbleSort {
         BubbleSort(arr);
         System.out.println("printing the array:");
         for(int value: arr){
-            System.out.print(value  +"  "   );
+            System.out.print(value  +" ");
         }
     }
 }
