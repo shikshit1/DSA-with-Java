@@ -24,7 +24,7 @@ public class UpperBound {
     }
 
     static void main() {
-        int arr[]=  {10,20,30,30,40,50,60,70};
+        int arr[]=  {10,20,30,30,40,45};
         int target= 20;
         int ans = getupperbound(arr,target);
         System.out.println("ans:"+ ans);
