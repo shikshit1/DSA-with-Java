@@ -52,7 +52,7 @@ public class SearchInRotatedSortedArrayII {
         // MAIN METHOD
         public static void main(String[] args) {
 
-            int[] nums = {2, 5, 6, 0, 0, 1, 2};
+            int[] nums = {2, 5, 6, 0, 0, 1,2,3};
             int target = 0;
 
             SearchInRotatedSortedArrayII obj =
